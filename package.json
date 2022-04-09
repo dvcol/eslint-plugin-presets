@@ -22,7 +22,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "release": "standard-version"
   },
   "dependencies": {
     "@commitlint/cli": "^16.2.3",
