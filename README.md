@@ -1,4 +1,4 @@
-# eslint-plugin-id
+# eslint-plugin-presets
 
 Basic presets for eslint
 
