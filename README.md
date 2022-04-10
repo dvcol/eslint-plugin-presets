@@ -10,37 +10,40 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-id`:
+Next, install `@dvcol/eslint-plugin-presets`:
 
 ```sh
-npm install eslint-plugin-id --save-dev
+npm install @dvcol/eslint-plugin-presets --save-dev
 ```
 
 ## Usage
 
-Add `id` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@dvcol/eslint-plugin-presets` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-    "plugins": [
-        "id"
-    ]
+  "plugins": [
+    "@dvcol/presets"
+  ]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "id/rule-name": 2
-    }
+  "rules": {
+    "@dvcol/presets/rule-name": 2
+  }
 }
 ```
 
-## Supported Rules
+Or extends one of the presets.
 
-* Fill in provided rules here
-
-
+```json
+{
+  "extends": [
+    "@dvcol/presets/base"
+  ]
+}
+```
