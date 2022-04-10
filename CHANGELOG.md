@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/dvcol/eslint-plugin-presets/compare/v1.0.0...v1.1.0) (2022-04-10)
+
+
+### Features
+
+* **ci:** add npm publish step ([36b983a](https://github.com/dvcol/eslint-plugin-presets/commit/36b983aac19cda4b0a6be94b60dd81e71d518ce1))
+* **ci:** adds test workflow ([2133343](https://github.com/dvcol/eslint-plugin-presets/commit/213334372d8a992ce93d22d2b9d6382ec4d8721c))
+
 ## 1.0.0 (2022-04-10)
 
 
