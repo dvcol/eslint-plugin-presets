@@ -1708,20 +1708,47 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.18.0
     eslint: ">= 8"
     eslint-plugin-eslint-comments: ^3.2.0
-    eslint-plugin-eslint-plugin: ^4.1.0
     eslint-plugin-html: ^6.2.0
     eslint-plugin-import: ^2.26.0
     eslint-plugin-jest: ^26.1.4
     eslint-plugin-jsonc: ^2.2.1
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-markdown: ^2.2.1
-    eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.29.4
     eslint-plugin-react-hooks: ^4.4.0
     eslint-plugin-vue: ^8.6.0
     eslint-plugin-vuejs-accessibility: ^1.1.1
     eslint-plugin-yml: ^0.14.0
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+    eslint-plugin-eslint-comments:
+      optional: true
+    eslint-plugin-html:
+      optional: true
+    eslint-plugin-import:
+      optional: true
+    eslint-plugin-jest:
+      optional: true
+    eslint-plugin-jsonc:
+      optional: true
+    eslint-plugin-jsx-a11y:
+      optional: true
+    eslint-plugin-markdown:
+      optional: true
+    eslint-plugin-prettier:
+      optional: true
+    eslint-plugin-react:
+      optional: true
+    eslint-plugin-react-hooks:
+      optional: true
+    eslint-plugin-vue:
+      optional: true
+    eslint-plugin-vuejs-accessibility:
+      optional: true
+    eslint-plugin-yml:
+      optional: true
   languageName: unknown
   linkType: soft
 

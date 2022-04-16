@@ -46,14 +46,12 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-react-app": "^7.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-eslint-plugin": "^4.1.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.1.4",
     "eslint-plugin-jsonc": "^2.2.1",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-markdown": "^2.2.1",
-    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
@@ -69,6 +67,8 @@
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "eslint": "^8.13.0",
+    "eslint-plugin-eslint-plugin": "^4.1.0",
+    "eslint-plugin-node": "^11.1.0",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
     "prettier": "^2.6.2",
@@ -78,19 +78,75 @@
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "eslint": ">= 8",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-eslint-plugin": "^4.1.0",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.1.4",
     "eslint-plugin-jsonc": "^2.2.1",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-markdown": "^2.2.1",
-    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
     "eslint-plugin-vue": "^8.6.0",
     "eslint-plugin-vuejs-accessibility": "^1.1.1",
     "eslint-plugin-yml": "^0.14.0"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "// required for": "typescript, react, vue",
+      "optional": true
+    },
+    "eslint-plugin-eslint-comments": {
+      "// required for": "base, typescript, react, vue",
+      "optional": true
+    },
+    "eslint-plugin-html": {
+      "// required for": "base, typescript, react, vue",
+      "optional": true
+    },
+    "eslint-plugin-import": {
+      "// required for": "typescript, react, vue",
+      "optional": true
+    },
+    "eslint-plugin-jest": {
+      "// required for": "jest, react, vue",
+      "optional": true
+    },
+    "eslint-plugin-jsonc": {
+      "// required for": "base, typescript, react, vue",
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "// required for": "react",
+      "optional": true
+    },
+    "eslint-plugin-markdown": {
+      "// required for": "base, typescript, react, vue",
+      "optional": true
+    },
+    "eslint-plugin-prettier": {
+      "// required for": "prettier, react, vue",
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "// required for": "react",
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "// required for": "react",
+      "optional": true
+    },
+    "eslint-plugin-vue": {
+      "// required for": "vue",
+      "optional": true
+    },
+    "eslint-plugin-vuejs-accessibility": {
+      "// required for": "vue",
+      "optional": true
+    },
+    "eslint-plugin-yml": {
+      "// required for": "base, typescript, react, vue",
+      "optional": true
+    }
   }
 }
