@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/dvcol/eslint-plugin-presets/compare/v1.1.0...v1.1.1) (2022-04-16)
+
+
+### Bug Fixes
+
+* **dependency:** fix peer dependencies ([850828d](https://github.com/dvcol/eslint-plugin-presets/commit/850828d39cf0820459991f7bf341ad513c0beeb8))
+* **readme:** fixes readme typo ([8cb5214](https://github.com/dvcol/eslint-plugin-presets/commit/8cb5214db7cc16655f59f52616c88156bb6b1b0b))
+
 ## [1.1.0](https://github.com/dvcol/eslint-plugin-presets/compare/v1.0.0...v1.1.0) (2022-04-10)
 
 
