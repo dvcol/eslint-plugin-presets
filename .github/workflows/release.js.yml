@@ -36,7 +36,7 @@ jobs:
         run: yarn install
 
       - name: Generate Release changelog
-        run: npx extract-changelog-release --yes > RELEASE.md
+        run: yarn dlx -q extract-changelog-release --yes > RELEASE.md
 
       - name: Push Release to github
         uses: softprops/action-gh-release@v1
