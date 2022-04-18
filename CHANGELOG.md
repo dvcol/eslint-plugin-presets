@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/dvcol/eslint-plugin-presets/compare/v1.1.3...v1.1.4) (2022-04-18)
+
+
+### Bug Fixes
+
+* **prettier:** remove same line rule for template ([252983d](https://github.com/dvcol/eslint-plugin-presets/commit/252983da8eadd5d73098c6e805d50fc1eaf3ee5b))
+
 ### [1.1.3](https://github.com/dvcol/eslint-plugin-presets/compare/v1.1.1...v1.1.3) (2022-04-18)
 
 
