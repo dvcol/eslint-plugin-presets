@@ -1696,6 +1696,7 @@ __metadata:
     eslint-plugin-vue: ^8.6.0
     eslint-plugin-vuejs-accessibility: ^1.1.1
     eslint-plugin-yml: ^0.14.0
+    extract-changelog-release: ^1.0.2
     husky: ^7.0.4
     jest: ^27.5.1
     jsonc-eslint-parser: ^2.1.0
@@ -4648,6 +4649,17 @@ __metadata:
     jest-matcher-utils: ^27.5.1
     jest-message-util: ^27.5.1
   checksum: b2c66beb52de53ef1872165aace40224e722bca3c2274c54cfa74b6d617d55cf0ccdbf36783ccd64dbea501b280098ed33fd0b207d4f15bc03cd3c7a24364a6a
+  languageName: node
+  linkType: hard
+
+"extract-changelog-release@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "extract-changelog-release@npm:1.0.2"
+  dependencies:
+    minimist: ^1.2.5
+  bin:
+    extract-changelog-release: dist/index.js
+  checksum: 7bfed5be5d126f8b7aab94a2851044c321c2f8d4d5859bd805f32ba13f3109241fd3e349b58a4c135a92d63e033cef0ee19e6e258628372c62d8e13dad4c667a
   languageName: node
   linkType: hard
 
