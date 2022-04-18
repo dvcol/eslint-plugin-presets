@@ -24,6 +24,7 @@ jobs:
     steps:
       - name: Checkout branch ${{ github.ref }}
         uses: actions/checkout@v3
+        ref: main
 
       - name: Setup Node.js ${{ env.node_version }}
         uses: actions/setup-node@v3
@@ -35,6 +36,12 @@ jobs:
       - name: install dependencies
         run: yarn install
 
+      - name: Publish to npm
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+
       - name: Generate Release changelog
         run: yarn dlx -q extract-changelog-release --yes > RELEASE.md
 
@@ -42,8 +49,3 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           body_path: RELEASE.md
-
-      - name: Publish to npm
-        run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
