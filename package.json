@@ -94,45 +94,59 @@
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
+      "// required for": "typescript, react, vue",
       "optional": true
     },
     "eslint-plugin-eslint-comments": {
+      "// required for": "base, typescript, react, vue",
       "optional": true
     },
     "eslint-plugin-html": {
+      "// required for": "base, typescript, react, vue",
       "optional": true
     },
     "eslint-plugin-import": {
+      "// required for": "typescript, react, vue",
       "optional": true
     },
     "eslint-plugin-jest": {
+      "// required for": "jest, react, vue",
       "optional": true
     },
     "eslint-plugin-jsonc": {
+      "// required for": "base, typescript, react, vue",
       "optional": true
     },
     "eslint-plugin-jsx-a11y": {
+      "// required for": "react",
       "optional": true
     },
     "eslint-plugin-markdown": {
+      "// required for": "base, typescript, react, vue",
       "optional": true
     },
     "eslint-plugin-prettier": {
+      "// required for": "prettier, react, vue",
       "optional": true
     },
     "eslint-plugin-react": {
+      "// required for": "react",
       "optional": true
     },
     "eslint-plugin-react-hooks": {
+      "// required for": "react",
       "optional": true
     },
     "eslint-plugin-vue": {
+      "// required for": "vue",
       "optional": true
     },
     "eslint-plugin-vuejs-accessibility": {
+      "// required for": "vue",
       "optional": true
     },
     "eslint-plugin-yml": {
+      "// required for": "base, typescript, react, vue",
       "optional": true
     }
   }
