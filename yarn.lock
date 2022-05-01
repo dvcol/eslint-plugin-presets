@@ -1707,7 +1707,13 @@ __metadata:
     yaml-eslint-parser: ^0.5.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.18.0
+    "@typescript-eslint/parser": ^5.18.0
+    "@vue/eslint-config-prettier": ^7.0.0
+    "@vue/eslint-config-typescript": ^10.0.0
     eslint: ">= 8"
+    eslint-config-airbnb-base: ^15.0.0
+    eslint-config-prettier: ^8.5.0
+    eslint-config-react-app: ^7.0.0
     eslint-plugin-eslint-comments: ^3.2.0
     eslint-plugin-html: ^6.2.0
     eslint-plugin-import: ^2.26.0
@@ -1721,22 +1727,24 @@ __metadata:
     eslint-plugin-vue: ^8.6.0
     eslint-plugin-vuejs-accessibility: ^1.1.1
     eslint-plugin-yml: ^0.14.0
+    jsonc-eslint-parser: ^2.1.0
+    yaml-eslint-parser: ^0.5.0
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
-    eslint-plugin-eslint-comments:
+    "@typescript-eslint/parser":
       optional: true
-    eslint-plugin-html:
+    "@vue/eslint-config-prettier":
+      optional: true
+    "@vue/eslint-config-typescript":
+      optional: true
+    eslint-config-react-app:
       optional: true
     eslint-plugin-import:
       optional: true
     eslint-plugin-jest:
       optional: true
-    eslint-plugin-jsonc:
-      optional: true
     eslint-plugin-jsx-a11y:
-      optional: true
-    eslint-plugin-markdown:
       optional: true
     eslint-plugin-prettier:
       optional: true
@@ -1747,8 +1755,6 @@ __metadata:
     eslint-plugin-vue:
       optional: true
     eslint-plugin-vuejs-accessibility:
-      optional: true
-    eslint-plugin-yml:
       optional: true
   languageName: unknown
   linkType: soft
