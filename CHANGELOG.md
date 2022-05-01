@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/dvcol/eslint-plugin-presets/compare/v1.1.5...v1.2.0) (2022-05-01)
+
+
+### Features
+
+* **config:** add vitest config ([edbed65](https://github.com/dvcol/eslint-plugin-presets/commit/edbed65d1ecac0f2589bc035daaff2e0af36afda))
+
 ### [1.1.5](https://github.com/dvcol/eslint-plugin-presets/compare/v1.1.4...v1.1.5) (2022-05-01)
 
 
