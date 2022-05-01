@@ -55,6 +55,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-vitest": "^0.0.8",
     "eslint-plugin-vue": "^8.6.0",
     "eslint-plugin-vuejs-accessibility": "^1.1.1",
     "eslint-plugin-yml": "^0.14.0",
@@ -94,6 +95,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-vitest": "^0.0.8",
     "eslint-plugin-vue": "^8.6.0",
     "eslint-plugin-vuejs-accessibility": "^1.1.1",
     "eslint-plugin-yml": "^0.14.0",
@@ -134,6 +136,9 @@
     "eslint-plugin-react-hooks": {
       "optional": true
     },
+    "eslint-plugin-vitest": {
+      "optional": true
+    },
     "eslint-plugin-vue": {
       "optional": true
     },
@@ -163,7 +168,6 @@
       "eslint-plugin-eslint-comments": "^3.2.0",
       "eslint-plugin-html": "^6.2.0",
       "eslint-plugin-import": "^2.26.0",
-      "eslint-plugin-jest": "^26.1.4",
       "eslint-plugin-jsonc": "^2.2.1",
       "eslint-plugin-markdown": "^2.2.1",
       "eslint-plugin-prettier": "^4.0.0",
@@ -201,7 +205,6 @@
       "eslint-plugin-eslint-comments": "^3.2.0",
       "eslint-plugin-html": "^6.2.0",
       "eslint-plugin-import": "^2.26.0",
-      "eslint-plugin-jest": "^26.1.4",
       "eslint-plugin-jsonc": "^2.2.1",
       "eslint-plugin-markdown": "^2.2.1",
       "eslint-plugin-prettier": "^4.0.0",
@@ -210,6 +213,12 @@
       "eslint-plugin-yml": "^0.14.0",
       "jsonc-eslint-parser": "^2.1.0",
       "yaml-eslint-parser": "^0.5.0"
+    },
+    "jest": {
+      "eslint-plugin-jest": "^26.1.4"
+    },
+    "vitest": {
+      "eslint-plugin-vitest": "^0.0.8"
     }
   }
 }
