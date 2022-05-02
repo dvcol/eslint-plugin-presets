@@ -4,7 +4,12 @@
   "description": "Basic presets for eslint",
   "author": "dvcol",
   "license": "MIT",
-  "repository": "dvcol/eslint-plugin-presets",
+  "homepage": "https://github.com/dvcol/eslint-plugin-presets",
+  "bugs": "https://github.com/dvcol/eslint-plugin-presets/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvcol/eslint-plugin-presets.git"
+  },
   "keywords": [
     "eslint",
     "eslintplugin",
