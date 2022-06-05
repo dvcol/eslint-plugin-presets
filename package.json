@@ -1,6 +1,6 @@
 {
   "name": "@dvcol/eslint-plugin-presets",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Basic presets for eslint",
   "author": "dvcol",
   "license": "MIT",
