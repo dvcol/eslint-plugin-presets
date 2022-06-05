@@ -23,6 +23,18 @@
       "automergeType": "pr"
     },
     {
+      "matchPackageNames": [
+        "chalk",
+        "ora"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "esm disabled dependencies",
+      "groupSlug": "esm",
+      "enabled": false
+    },
+    {
       "matchPackagePatterns": [
         "*"
       ],
