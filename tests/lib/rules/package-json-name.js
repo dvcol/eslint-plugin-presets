@@ -1,6 +1,6 @@
 "use strict";
 
-const rule = require("../../../lib/rules/package-json/name");
+const rule = require("../../../lib/rules/package-json-name");
 const RuleTester = require("eslint").RuleTester;
 
 const ruleTester = new RuleTester();
