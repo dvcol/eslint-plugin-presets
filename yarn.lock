@@ -1814,7 +1814,7 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.29.4
     eslint-plugin-react-hooks: ^4.4.0
-    eslint-plugin-vitest: ^0.0.22
+    eslint-plugin-vitest: ^0.0.23
     eslint-plugin-vue: ^9.0.0
     eslint-plugin-vuejs-accessibility: ^1.1.1
     eslint-plugin-yml: ^1.0.0
@@ -1847,7 +1847,7 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.29.4
     eslint-plugin-react-hooks: ^4.4.0
-    eslint-plugin-vitest: ^0.0.22
+    eslint-plugin-vitest: ^0.0.23
     eslint-plugin-vue: ^9.0.0
     eslint-plugin-vuejs-accessibility: ^1.1.1
     eslint-plugin-yml: ^1.0.0
@@ -4617,14 +4617,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vitest@npm:^0.0.22":
-  version: 0.0.22
-  resolution: "eslint-plugin-vitest@npm:0.0.22"
+"eslint-plugin-vitest@npm:^0.0.23":
+  version: 0.0.23
+  resolution: "eslint-plugin-vitest@npm:0.0.23"
   dependencies:
     "@typescript-eslint/utils": ^5.42.1
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: c0f9ff57346b65b952fb9e098c9b4201098cb45eea48f8ea89cebb7111a0d3e4c5c3b5f4dca0b656ded06148b10455f80ba2a80251d9df7eb0e904306aa987c5
+  checksum: 8a7acbd2bcfd3b3ad3e34bccafd544112ac33119bcb7cf6465e541a464fb241251a6d98baa1ab99cc8cc24a87008e8b883c13b3e419db426f4f055fb8efc2c09
   languageName: node
   linkType: hard
 
