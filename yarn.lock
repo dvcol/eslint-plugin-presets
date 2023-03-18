@@ -1762,6 +1762,14 @@ __metadata:
       optional: true
     eslint-plugin-vuejs-accessibility:
       optional: true
+    react:
+      optional: true
+    solid:
+      optional: true
+    svelte:
+      optional: true
+    vue:
+      optional: true
   languageName: unknown
   linkType: soft
 
