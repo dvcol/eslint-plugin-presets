@@ -151,7 +151,7 @@
     "eslint-plugin-solid": {
       "optional": true
     },
-    "eslint-plugin-svelte": {
+    "eslint-plugin-svelte3": {
       "optional": true
     },
     "eslint-plugin-vitest": {
