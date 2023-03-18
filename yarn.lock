@@ -1833,9 +1833,10 @@ __metadata:
     eslint-plugin-react: ^7.29.4
     eslint-plugin-react-hooks: ^4.4.0
     eslint-plugin-solid: ^0.11.0
+    eslint-plugin-svelte3: ^4.0.0
     eslint-plugin-vitest: ^0.0.54
-    eslint-plugin-vue: ^9.0.0
-    eslint-plugin-vuejs-accessibility: ^2.0.0
+    eslint-plugin-vue: ^9.9.0
+    eslint-plugin-vuejs-accessibility: ^2.1.0
     eslint-plugin-yml: ^1.0.0
     espree: ^9.3.2
     extract-changelog-release: ^1.0.2
@@ -1866,6 +1867,7 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.29.4
     eslint-plugin-react-hooks: ^4.4.0
+    eslint-plugin-solid: ^0.11.0
     eslint-plugin-vitest: ^0.0.54
     eslint-plugin-vue: ^9.0.0
     eslint-plugin-vuejs-accessibility: ^2.0.0
@@ -1894,6 +1896,8 @@ __metadata:
     eslint-plugin-react:
       optional: true
     eslint-plugin-react-hooks:
+      optional: true
+    eslint-plugin-solid:
       optional: true
     eslint-plugin-vitest:
       optional: true
@@ -4902,6 +4906,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-svelte3@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "eslint-plugin-svelte3@npm:4.0.0"
+  peerDependencies:
+    eslint: ">=8.0.0"
+    svelte: ^3.2.0
+  checksum: 5e9ddddedee44ac099290cda6e86f412c6f4f2cbdeee860eb2b617c66d3cca7699638c6191ed55c4a7651b57b8387202f62b5b0e0417219c59cdd084dcab4e07
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-testing-library@npm:^5.0.1":
   version: 5.2.1
   resolution: "eslint-plugin-testing-library@npm:5.2.1"
@@ -4924,9 +4938,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:^9.0.0":
-  version: 9.1.0
-  resolution: "eslint-plugin-vue@npm:9.1.0"
+"eslint-plugin-vue@npm:^9.9.0":
+  version: 9.9.0
+  resolution: "eslint-plugin-vue@npm:9.9.0"
   dependencies:
     eslint-utils: ^3.0.0
     natural-compare: ^1.4.0
@@ -4937,20 +4951,20 @@ __metadata:
     xml-name-validator: ^4.0.0
   peerDependencies:
     eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
-  checksum: b14705978ab452eda91e592145d69e260e316797672e4391380c418d8f27d9b503dff77ed1c7dc557e7624d81f1777d2190b29a82282b3e0a84d01a3bfc8cae8
+  checksum: 059f9c1915504d074adf64bc3371d1e174f8844088d0e08800c958cbef09d7fdf2a0a949634187231645435a1ef31595c8c81f441000ec43589bb58a1282fe3c
   languageName: node
   linkType: hard
 
-"eslint-plugin-vuejs-accessibility@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "eslint-plugin-vuejs-accessibility@npm:2.0.0"
+"eslint-plugin-vuejs-accessibility@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "eslint-plugin-vuejs-accessibility@npm:2.1.0"
   dependencies:
     aria-query: ">=5.0.0"
     emoji-regex: ^10.0.0
     vue-eslint-parser: ^9.0.1
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 0952ad72d98307ee7559399ba42acc2540266510c4387f019ea7bf266d23db6762e58382c20be84cce36d81856ad06da38d241547ec0e670ff9e494c4bb943c9
+  checksum: 03fab0f9ec70c297dd0c6148faec86138b025eb38cc9337adc01bc0036602f999b0be322a378822e282f8648c5f834fd2d01fc04f2b15d52f796cb0f9f4dd544
   languageName: node
   linkType: hard
 
