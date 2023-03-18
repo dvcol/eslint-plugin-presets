@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/dvcol/eslint-plugin-presets/compare/v1.2.2...v1.3.0) (2023-03-18)
+
+
+### Features
+
+* **rules:** add filename rule ([3e8d2d5](https://github.com/dvcol/eslint-plugin-presets/commit/3e8d2d5bd7a139016014bcd997b770fc7dca7980))
+* **rules:** add package-json linting rules ([31f2254](https://github.com/dvcol/eslint-plugin-presets/commit/31f2254c3cf6d34284c2c7cc1db2af8584ae3739))
+* **solid:** add solid preset ([a39f77a](https://github.com/dvcol/eslint-plugin-presets/commit/a39f77aaf6f2f9d218af6ef0b92a7494b1275b81))
+* **svelte:** adds svelte preset ([33b4ce8](https://github.com/dvcol/eslint-plugin-presets/commit/33b4ce8e06365068c01024660d979fa904933fc0))
+
 ### [1.2.2](https://github.com/dvcol/eslint-plugin-presets/compare/v1.2.1...v1.2.2) (2022-06-05)
 
 ### [1.2.1](https://github.com/dvcol/eslint-plugin-presets/compare/v1.2.0...v1.2.1) (2022-05-01)
