@@ -34,6 +34,10 @@
       "env": {
         "jest": true
       }
+    },
+    {
+      "files": ["*.json", "*.json5"],
+      "parser": "jsonc-eslint-parser",
     }
   ]
 }
