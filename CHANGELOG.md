@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.3](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.2...v1.3.3) (2023-03-22)
+
+
+### Bug Fixes
+
+* **overrides:** fixes overrides in framework presets ([dff6721](https://github.com/dvcol/eslint-plugin-presets/commit/dff6721ed6b20142c2f1ab52192474a063f7b116))
+
 ### [1.3.2](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.1...v1.3.2) (2023-03-18)
 
 
