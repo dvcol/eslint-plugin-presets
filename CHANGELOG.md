@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.4](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.3...v1.3.4) (2023-03-23)
+
+
+### Bug Fixes
+
+* **resolution:** add force resolution because of create-react-app ([434d701](https://github.com/dvcol/eslint-plugin-presets/commit/434d701969fd50a6cd645ebb5561648c8a740fae))
+
 ### [1.3.3](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.2...v1.3.3) (2023-03-22)
 
 
