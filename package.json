@@ -282,5 +282,11 @@
     "vitest": {
       "eslint-plugin-vitest": "^0.0.8"
     }
+  },
+  "resolutions": {
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2"
   }
 }
