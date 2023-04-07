@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.5](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.4...v1.3.5) (2023-04-07)
+
+
+### Bug Fixes
+
+* **ci:** simplify ci ([7c58852](https://github.com/dvcol/eslint-plugin-presets/commit/7c58852ce86143b879a48efe40d2a714319cb37c))
+* **lint:** fix dangling comma ([3eaea77](https://github.com/dvcol/eslint-plugin-presets/commit/3eaea77e70cb861237b7f97dceef496305afb417))
+* **svelte:** remove jsx from svelte preset ([bb11a1e](https://github.com/dvcol/eslint-plugin-presets/commit/bb11a1e3f1d01afb8108b08a8e8a880b184375e1))
+* **vitest:** bump vitest ([26e42f6](https://github.com/dvcol/eslint-plugin-presets/commit/26e42f68183185f6821396d2944da24f4b0440af))
+
 ### [1.3.4](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.3...v1.3.4) (2023-03-23)
 
 
