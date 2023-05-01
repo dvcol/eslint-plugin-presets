@@ -1710,7 +1710,7 @@ __metadata:
     standard-version: ^9.5.0
     yaml-eslint-parser: ^1.2.0
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": 5.59.1
+    "@typescript-eslint/eslint-plugin": 5.59.2
     "@typescript-eslint/parser": ^5.56.0
     "@vue/eslint-config-prettier": ^7.1.0
     "@vue/eslint-config-typescript": ^11.0.0
