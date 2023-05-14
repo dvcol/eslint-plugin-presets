@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.7](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.6...v1.3.7) (2023-05-14)
+
+
+### Bug Fixes
+
+* **svelte:** switch to eslint-plugin-svelte ([214d818](https://github.com/dvcol/eslint-plugin-presets/commit/214d818389eb284cddc8a9cbb3c6046cfd9c3427))
+
 ### [1.3.6](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.5...v1.3.6) (2023-04-07)
 
 ### [1.3.5](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.4...v1.3.5) (2023-04-07)
