@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.8](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.7...v1.3.8) (2023-07-14)
+
+
+### Bug Fixes
+
+* **svelte:** mutable let rule ([771c613](https://github.com/dvcol/eslint-plugin-presets/commit/771c613c1e60cf5fb95f835458b490e425408922))
+
 ### [1.3.7](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.6...v1.3.7) (2023-05-14)
 
 
