@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.9](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.8...v1.3.9) (2023-07-21)
+
+
+### Bug Fixes
+
+* prettier printWidth and no-jest-import ([fd2a2d8](https://github.com/dvcol/eslint-plugin-presets/commit/fd2a2d89ba0d4f51535e0089a68f03cf87dd1d75))
+
 ### [1.3.8](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.7...v1.3.8) (2023-07-14)
 
 
