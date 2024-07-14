@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.11](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.10...v1.3.11) (2024-07-14)
+
+
+### Bug Fixes
+
+* **typescript:** disable import typescripts rules in json ([052f67e](https://github.com/dvcol/eslint-plugin-presets/commit/052f67eb6ab6894dea9c5c67c6e8ba30f8f63d82))
+
 ### [1.3.10](https://github.com/dvcol/eslint-plugin-presets/compare/v1.3.9...v1.3.10) (2023-08-24)
 
 
