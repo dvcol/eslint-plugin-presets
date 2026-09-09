@@ -1676,6 +1676,7 @@ __metadata:
     "@vue/eslint-config-prettier": ^7.1.0
     "@vue/eslint-config-typescript": ^11.0.3
     chalk: ^4.1.2
+    commit-and-tag-version: ^9.5.0
     dash-ast: ^2.0.1
     eslint: ^8.36.0
     eslint-config-airbnb-base: ^15.0.0
@@ -1707,7 +1708,6 @@ __metadata:
     ora: ^5.4.1
     prettier: ^3.0.0
     requireindex: ^1.2.0
-    standard-version: ^9.5.0
     yaml-eslint-parser: ^1.2.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">= 5"
@@ -4007,6 +4007,30 @@ __metadata:
   bin:
     color-support: bin.js
   checksum: 9b7356817670b9a13a26ca5af1c21615463b500783b739b7634a0c2047c16cef4b2865d7576875c31c3cddf9dd621fa19285e628f20198b233a5cfdda6d0793b
+  languageName: node
+  linkType: hard
+
+"commit-and-tag-version@npm:^9.5.0":
+  version: 9.6.0
+  resolution: "commit-and-tag-version@npm:9.6.0"
+  dependencies:
+    chalk: ^2.4.2
+    conventional-changelog: 3.1.25
+    conventional-changelog-config-spec: 2.1.0
+    conventional-changelog-conventionalcommits: 4.6.3
+    conventional-recommended-bump: 6.1.0
+    detect-indent: ^6.0.0
+    detect-newline: ^3.1.0
+    dotgitignore: ^2.1.0
+    figures: ^3.1.0
+    find-up: ^5.0.0
+    git-semver-tags: ^4.0.0
+    semver: ^7.1.1
+    stringify-package: ^1.0.1
+    yargs: ^16.0.0
+  bin:
+    commit-and-tag-version: bin/cli.js
+  checksum: 33f2d44fa7c8bb79a8457defd7a76c8715ffefa410ba1f1e1834af08b63cd172201c1453ae110c67db864323efb0b909bbb287d12ffac2bbd6c858a4d2177578
   languageName: node
   linkType: hard
 
@@ -9419,30 +9443,6 @@ __metadata:
   dependencies:
     escape-string-regexp: ^2.0.0
   checksum: 76b69da0f5b48a34a0f93c98ee2a96544d2c4ca2557f7eef5ddb961d3bdc33870b46f498a84a7c4f4ffb781df639840e7ebf6639164ed4da5e1aeb659615b9c7
-  languageName: node
-  linkType: hard
-
-"standard-version@npm:^9.5.0":
-  version: 9.5.0
-  resolution: "standard-version@npm:9.5.0"
-  dependencies:
-    chalk: ^2.4.2
-    conventional-changelog: 3.1.25
-    conventional-changelog-config-spec: 2.1.0
-    conventional-changelog-conventionalcommits: 4.6.3
-    conventional-recommended-bump: 6.1.0
-    detect-indent: ^6.0.0
-    detect-newline: ^3.1.0
-    dotgitignore: ^2.1.0
-    figures: ^3.1.0
-    find-up: ^5.0.0
-    git-semver-tags: ^4.0.0
-    semver: ^7.1.1
-    stringify-package: ^1.0.1
-    yargs: ^16.0.0
-  bin:
-    standard-version: bin/cli.js
-  checksum: 55003206f7eca18ee9962566e5222d3930a1fa3c4692615d64e88f08873b9685837d669dc58361831bd3f211b6687c1681ad6a1749edf346b2db3e4564b4933c
   languageName: node
   linkType: hard
 
