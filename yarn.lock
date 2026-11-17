@@ -1693,7 +1693,7 @@ __metadata:
     eslint-plugin-prettier: ^5.0.0
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-solid: ^0.19.0
+    eslint-plugin-solid: ^0.20.0
     eslint-plugin-svelte: ^2.32.2
     eslint-plugin-vitest: ^0.5.0
     eslint-plugin-vue: ^9.15.1
@@ -1728,7 +1728,7 @@ __metadata:
     eslint-plugin-prettier: ">= 4"
     eslint-plugin-react: ^7.32.2
     eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-solid: ^0.19.0
+    eslint-plugin-solid: ^0.20.0
     eslint-plugin-svelte: ">= 2"
     eslint-plugin-vitest: ^0.5.0
     eslint-plugin-vue: ">= 9"
@@ -5072,9 +5072,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-solid@npm:^0.19.0":
-  version: 0.19.0
-  resolution: "eslint-plugin-solid@npm:0.19.0"
+"eslint-plugin-solid@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "eslint-plugin-solid@npm:0.20.0"
   dependencies:
     eslint-visitor-keys: ^3.4.3
     estraverse: ^5.3.0
@@ -5089,7 +5089,7 @@ __metadata:
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: 545e8d35478867f81a932216cadb7684b4f64da38c07fcd5c0637ce166a9bca6141219a5ccc8b24ca49508c5e4f371a032e1885ea40469c9b6db40999d34f0bf
+  checksum: 8b152774752bb497f68418f983c797e45d903d8e7299bd88100ba8af56495e71dc61bdda63751f0a04276f769a26fd535c31186e80d6c206ac3bda20fad6bfe0
   languageName: node
   linkType: hard
 
